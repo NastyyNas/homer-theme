@@ -57,4 +57,10 @@ services:
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
         url: "http://sunville.tail2d9af5.ts.net:32400/"
         target: "_blank"
+      - name: "Overseerr"
+        logo: "/assets/tools/Overseerr.webp" # Change github.png to the name of your own custom icon!
+        tag: "Sunville"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "http://sunville.tail2d9af5.ts.net:5055/"
+        target: "_blank"
     
