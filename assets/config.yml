@@ -1,7 +1,7 @@
 ---
 title: "Homelab"
 subtitle: "Dries"
-logo: "sunville.png"
+logo: "/assets/tools/sunville.png"
 
 header: false
 footer: false # Set false if you want to hide it.
