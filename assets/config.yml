@@ -42,7 +42,7 @@ colors:
     background-image: "../assets/wallpaper.jpeg"
 
 services:
-  - name: "//Sunville"
+  - name: "//General"
     icon: "fas fa-github"
     items:
       - name: "CommaFeed"
@@ -51,16 +51,39 @@ services:
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
         url: "http://commafeed-commafeed.tail2d9af5.ts.net:8082/"
         target: "_blank"
+  - name: "//Media"
+    icon: "fas fa-github"
+    items:
       - name: "Plex"
         logo: "/assets/tools/plex.webp" # Change github.png to the name of your own custom icon!
         tag: "Sunville"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "http://sunville.tail2d9af5.ts.net:32400/"
+        url: "http://media-stack-plex.tail2d9af5.ts.net:32400/"
         target: "_blank"
       - name: "Overseerr"
         logo: "/assets/tools/Overseerr.png" # Change github.png to the name of your own custom icon!
         tag: "Sunville"
         tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "http://sunville.tail2d9af5.ts.net:5055/"
+        url: "http://media-stack-overseerr.tail2d9af5.ts.net:5055/"
         target: "_blank"
-    
+      - name: "Radarr"
+        logo: "/assets/tools/radarr.png" # Change github.png to the name of your own custom icon!
+        tag: "Sunville"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "http://media-stack-radarr.tail2d9af5.ts.net:7878/"
+        target: "_blank"
+      - name: "Sonarr"
+        logo: "/assets/tools/sonarr.png" # Change github.png to the name of your own custom icon!
+        tag: "Sunville"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "http://media-stack-sonarr.tail2d9af5.ts.net:8989/"
+        target: "_blank"
+  - name: "//Monitoring"
+    icon: "fas fa-github"
+    items:
+      - name: "Grafana"
+        logo: "/assets/tools/grafana.png" # Change github.png to the name of your own custom icon!
+        tag: "Sunville"
+        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
+        url: "http://monitoring-grafana.tail2d9af5.ts.net:3000/d/becuowssfebcwa/scraping?orgId=1"
+        target: "_blank"
